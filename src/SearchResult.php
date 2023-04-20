@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Namoshek\Scout\Database;
+namespace Workup\Scout\Database;
 
 use Illuminate\Contracts\Support\Arrayable;
 use Laravel\Scout\Builder;
@@ -11,7 +11,7 @@ use Laravel\Scout\Builder;
  * The result of an index search. Contains a list of matching documents with their
  * identifier as well as the original builder and some meta information.
  *
- * @package Namoshek\Scout\Database
+ * @package Workup\Scout\Database
  */
 class SearchResult implements Arrayable
 {

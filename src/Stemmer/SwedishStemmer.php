@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Namoshek\Scout\Database\Stemmer;
+namespace Workup\Scout\Database\Stemmer;
 
 /**
  * A stemmer using the Snowball algorithm for the Swedish language.
  *
- * @package Namoshek\Scout\Database\Stemmer
+ * @package Workup\Scout\Database\Stemmer
  */
 class SwedishStemmer extends SnowballStemmer
 {

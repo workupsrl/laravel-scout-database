@@ -2,7 +2,7 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/namoshek/laravel-scout-database.svg?style=flat-square)](https://packagist.org/packages/namoshek/laravel-scout-database)
 [![Total Downloads](https://img.shields.io/packagist/dt/namoshek/laravel-scout-database.svg?style=flat-square)](https://packagist.org/packages/namoshek/laravel-scout-database)
-[![Tests](https://github.com/Namoshek/laravel-scout-database/workflows/Tests/badge.svg)](https://github.com/Namoshek/laravel-scout-database/actions?query=workflow%3ATests)
+[![Tests](https://github.com/Workup/laravel-scout-database/workflows/Tests/badge.svg)](https://github.com/Workup/laravel-scout-database/actions?query=workflow%3ATests)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=namoshek_laravel-scout-database&metric=alert_status)](https://sonarcloud.io/dashboard?id=namoshek_laravel-scout-database)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=namoshek_laravel-scout-database&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=namoshek_laravel-scout-database)
 [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=namoshek_laravel-scout-database&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=namoshek_laravel-scout-database)
@@ -38,8 +38,8 @@ composer require namoshek/laravel-scout-database
 After installing the package, the configuration file as well as the migrations need to be published:
 
 ```bash
-php artisan vendor:publish --provider="Namoshek\Scout\Database\ScoutDatabaseServiceProvider" --tag="config"
-php artisan vendor:publish --provider="Namoshek\Scout\Database\ScoutDatabaseServiceProvider" --tag="migrations"
+php artisan vendor:publish --provider="Workup\Scout\Database\ScoutDatabaseServiceProvider" --tag="config"
+php artisan vendor:publish --provider="Workup\Scout\Database\ScoutDatabaseServiceProvider" --tag="migrations"
 ```
 
 If you would like to use a different table prefix than `scout_` for the tables created by this package,
@@ -57,7 +57,7 @@ php artisan migrate
 With the new version, the database schema has changed and new migrations need to be published using:
 
 ```bash
-php artisan vendor:publish --provider="Namoshek\Scout\Database\ScoutDatabaseServiceProvider" --tag="migrations"
+php artisan vendor:publish --provider="Workup\Scout\Database\ScoutDatabaseServiceProvider" --tag="migrations"
 ```
 
 The same hint as mentioned above in the _Installation_ section applies to the newly published migrations as well.
@@ -69,7 +69,7 @@ Skipping this part has no negative impact on the performance of the Scout driver
 
 #### Commands
 
-The `\Namoshek\Scout\Database\Commands\CleanWordsTable::class` command has been removed and you should un-schedule it, if you added it previously.
+The `\Workup\Scout\Database\Commands\CleanWordsTable::class` command has been removed and you should un-schedule it, if you added it previously.
 
 #### Noteworthy
 

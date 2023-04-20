@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Namoshek\Scout\Database\Stemmer;
+namespace Workup\Scout\Database\Stemmer;
 
-use Namoshek\Scout\Database\Contracts\Stemmer;
+use Workup\Scout\Database\Contracts\Stemmer;
 use Wamania\Snowball\NotFoundException;
 use Wamania\Snowball\StemmerFactory;
 
 /**
  * A base stemmer supporting any language of the Snowball algorithm.
  *
- * @package Namoshek\Scout\Database\Stemmer
+ * @package Workup\Scout\Database\Stemmer
  */
 abstract class SnowballStemmer implements Stemmer
 {

@@ -4,19 +4,19 @@
 
 declare(strict_types=1);
 
-namespace Namoshek\Scout\Database\Tests;
+namespace Workup\Scout\Database\Tests;
 
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
-use Namoshek\Scout\Database\DatabaseIndexer;
-use Namoshek\Scout\Database\Stemmer\NullStemmer;
-use Namoshek\Scout\Database\Tests\Stubs\Animal;
-use Namoshek\Scout\Database\Tests\Stubs\User;
+use Workup\Scout\Database\DatabaseIndexer;
+use Workup\Scout\Database\Stemmer\NullStemmer;
+use Workup\Scout\Database\Tests\Stubs\Animal;
+use Workup\Scout\Database\Tests\Stubs\User;
 
 /**
  * Tests for the {@see DatabaseIndexer} class.
  *
- * @package Namoshek\Scout\Database\Tests
+ * @package Workup\Scout\Database\Tests
  */
 class DatabaseIndexerTest extends TestCase
 {

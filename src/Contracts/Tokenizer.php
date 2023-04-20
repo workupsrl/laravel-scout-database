@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Namoshek\Scout\Database\Contracts;
+namespace Workup\Scout\Database\Contracts;
 
 /**
  * Implementations of this interface are capable of splitting search strings into tokens.
  *
- * @package Namoshek\Scout\Database\Contracts
+ * @package Workup\Scout\Database\Contracts
  */
 interface Tokenizer
 {

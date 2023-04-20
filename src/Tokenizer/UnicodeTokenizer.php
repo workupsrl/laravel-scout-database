@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Namoshek\Scout\Database\Tokenizer;
+namespace Workup\Scout\Database\Tokenizer;
 
-use Namoshek\Scout\Database\Contracts\Tokenizer;
+use Workup\Scout\Database\Contracts\Tokenizer;
 
 /**
  * A support class which splits strings into tokens.
  *
- * @package Namoshek\Scout\Database\Tokenizer
+ * @package Workup\Scout\Database\Tokenizer
  */
 class UnicodeTokenizer implements Tokenizer
 {

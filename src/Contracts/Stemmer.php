@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Namoshek\Scout\Database\Contracts;
+namespace Workup\Scout\Database\Contracts;
 
 /**
  * Implementations of this interface are capable to strip individual words down to
  * their word stem. Word stemming allows to search for related words or words with
  * different spelling. The actual implementation may be (human) language agnostic.
  *
- * @package Namoshek\Scout\Database\Contracts
+ * @package Workup\Scout\Database\Contracts
  */
 interface Stemmer
 {

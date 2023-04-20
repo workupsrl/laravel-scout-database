@@ -1,20 +1,20 @@
 <?php
 
-namespace Namoshek\Scout\Database;
+namespace Workup\Scout\Database;
 
 use Illuminate\Contracts\Config\Repository as ConfigRepository;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Database\DatabaseManager;
 use Illuminate\Support\ServiceProvider;
 use Laravel\Scout\EngineManager;
-use Namoshek\Scout\Database\Contracts\Stemmer;
-use Namoshek\Scout\Database\Contracts\Tokenizer;
-use Namoshek\Scout\Database\Support\DatabaseHelper;
+use Workup\Scout\Database\Contracts\Stemmer;
+use Workup\Scout\Database\Contracts\Tokenizer;
+use Workup\Scout\Database\Support\DatabaseHelper;
 
 /**
  * Registers and boots services of the Laravel Scout Database package.
  *
- * @package Namoshek\Scout\Database
+ * @package Workup\Scout\Database
  */
 class ScoutDatabaseServiceProvider extends ServiceProvider
 {

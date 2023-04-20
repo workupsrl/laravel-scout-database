@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Namoshek\Scout\Database\Support;
+namespace Workup\Scout\Database\Support;
 
 /**
  * Provides util methods to work with databases.
  *
- * @package Namoshek\Scout\Database\Support
+ * @package Workup\Scout\Database\Support
  */
 class DatabaseHelper
 {

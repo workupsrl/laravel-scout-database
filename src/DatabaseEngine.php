@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Namoshek\Scout\Database;
+namespace Workup\Scout\Database;
 
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
 use Illuminate\Database\Eloquent\Model;
@@ -15,7 +15,7 @@ use Laravel\Scout\Searchable;
 /**
  * A Laravel Scout search engine utilizing an SQL database for indexing and search.
  *
- * @package Namoshek\Scout\Database
+ * @package Workup\Scout\Database
  */
 class DatabaseEngine extends Engine
 {

@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Namoshek\Scout\Database\Stemmer;
+namespace Workup\Scout\Database\Stemmer;
 
-use Namoshek\Scout\Database\Contracts\Stemmer;
+use Workup\Scout\Database\Contracts\Stemmer;
 
 /**
  * This stemmer does nothing. It simply returns the input as output.
  * It can be used to sort-of disable the stemming process.
  *
- * @package Namoshek\Scout\Database\Stemmer
+ * @package Workup\Scout\Database\Stemmer
  */
 class NullStemmer implements Stemmer
 {

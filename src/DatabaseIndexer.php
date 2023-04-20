@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Namoshek\Scout\Database;
+namespace Workup\Scout\Database;
 
 use Illuminate\Database\ConnectionInterface;
 use Illuminate\Database\Eloquent\Model;
@@ -10,14 +10,14 @@ use Illuminate\Database\Query\Builder;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 use Laravel\Scout\Searchable;
-use Namoshek\Scout\Database\Contracts\Stemmer;
-use Namoshek\Scout\Database\Contracts\Tokenizer;
-use Namoshek\Scout\Database\Support\DatabaseHelper;
+use Workup\Scout\Database\Contracts\Stemmer;
+use Workup\Scout\Database\Contracts\Tokenizer;
+use Workup\Scout\Database\Support\DatabaseHelper;
 
 /**
  * Indexes Eloquent models using the Scout search engine.
  *
- * @package Namoshek\Scout\Database
+ * @package Workup\Scout\Database
  */
 class DatabaseIndexer
 {

@@ -1,11 +1,11 @@
 {
-    "name": "namoshek/laravel-scout-database",
+    "name": "workup/laravel-scout-database",
     "description": "A generic Laravel Scout driver which performs full-text search on indexed model data using an SQL database as storage backend. Indexed data is stored in normalized form, allowing efficient search.",
     "keywords": [
         "laravel",
         "scout"
     ],
-    "homepage": "https://github.com/Namoshek/laravel-scout-database",
+    "homepage": "https://github.com/workupsrl/laravel-scout-database",
     "license": "MIT",
     "authors": [
         {
@@ -39,12 +39,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Namoshek\\Scout\\Database\\": "src"
+            "Workup\\Scout\\Database\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Namoshek\\Scout\\Database\\Tests\\": "tests"
+            "Workup\\Scout\\Database\\Tests\\": "tests"
         }
     },
     "config": {
@@ -53,7 +53,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Namoshek\\Scout\\Database\\ScoutDatabaseServiceProvider"
+                "Workup\\Scout\\Database\\ScoutDatabaseServiceProvider"
             ]
         }
     },

@@ -5,12 +5,12 @@
 
 declare(strict_types=1);
 
-namespace Namoshek\Scout\Database\Tests;
+namespace Workup\Scout\Database\Tests;
 
 /**
  * Base for all unit tests.
  *
- * @package Namoshek\Scout\Database\Tests
+ * @package Workup\Scout\Database\Tests
  */
 abstract class TestCase extends \Orchestra\Testbench\TestCase
 {
@@ -24,7 +24,7 @@ abstract class TestCase extends \Orchestra\Testbench\TestCase
     {
         return [
             \Laravel\Scout\ScoutServiceProvider::class,
-            \Namoshek\Scout\Database\ScoutDatabaseServiceProvider::class,
+            \Workup\Scout\Database\ScoutDatabaseServiceProvider::class,
             \Staudenmeir\LaravelCte\DatabaseServiceProvider::class,
         ];
     }

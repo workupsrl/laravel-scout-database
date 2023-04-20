@@ -4,19 +4,19 @@
 
 declare(strict_types=1);
 
-namespace Namoshek\Scout\Database\Tests;
+namespace Workup\Scout\Database\Tests;
 
 use Illuminate\Contracts\Config\Repository as ConfigRepository;
 use Illuminate\Database\ConnectionInterface;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
-use Namoshek\Scout\Database\DatabaseSeeker;
-use Namoshek\Scout\Database\SearchResult;
-use Namoshek\Scout\Database\Tests\Stubs\User;
+use Workup\Scout\Database\DatabaseSeeker;
+use Workup\Scout\Database\SearchResult;
+use Workup\Scout\Database\Tests\Stubs\User;
 
 /**
  * Tests for the {@see DatabaseSeeker} class.
  *
- * @package Namoshek\Scout\Database\Tests
+ * @package Workup\Scout\Database\Tests
  */
 class DatabaseSeekerTest extends TestCase
 {

@@ -48,7 +48,7 @@ return [
     |
     */
 
-    'tokenizer' => \Namoshek\Scout\Database\Tokenizer\UnicodeTokenizer::class,
+    'tokenizer' => \Workup\Scout\Database\Tokenizer\UnicodeTokenizer::class,
 
     /*
     |--------------------------------------------------------------------------
@@ -60,7 +60,7 @@ return [
     |
     */
 
-    'stemmer' => \Namoshek\Scout\Database\Stemmer\PorterStemmer::class,
+    'stemmer' => \Workup\Scout\Database\Stemmer\PorterStemmer::class,
 
     /*
     |--------------------------------------------------------------------------

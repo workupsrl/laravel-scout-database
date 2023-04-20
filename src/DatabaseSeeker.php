@@ -2,21 +2,21 @@
 
 declare(strict_types=1);
 
-namespace Namoshek\Scout\Database;
+namespace Workup\Scout\Database;
 
 use Illuminate\Database\ConnectionInterface;
 use Illuminate\Database\Query\Builder as QueryBuilder;
 use Illuminate\Support\Facades\DB;
 use Laravel\Scout\Builder;
-use Namoshek\Scout\Database\Contracts\Stemmer;
-use Namoshek\Scout\Database\Contracts\Tokenizer;
-use Namoshek\Scout\Database\Support\DatabaseHelper;
+use Workup\Scout\Database\Contracts\Stemmer;
+use Workup\Scout\Database\Contracts\Tokenizer;
+use Workup\Scout\Database\Support\DatabaseHelper;
 
 /**
  * The database seeker searches the database for collection items of a specific model,
  * using a search term which may consist of multiple words.
  *
- * @package Namoshek\Scout\Database
+ * @package Workup\Scout\Database
  */
 class DatabaseSeeker
 {
